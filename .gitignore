@@ -13,7 +13,7 @@ UserSettings/
 MemoryCaptures/
 sysinfo.txt
 
-# Visual Studio / Rider / VSCode
+# Visual Studio / Rider / VSCode//
 .vs/
 *.csproj
 *.pidb
