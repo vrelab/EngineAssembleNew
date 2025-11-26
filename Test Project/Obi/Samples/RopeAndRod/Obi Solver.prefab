@@ -1,0 +1,4821 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &598918888320438623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598918888320438568}
+  - component: {fileID: 598918888320438571}
+  - component: {fileID: 598918888320438570}
+  - component: {fileID: 598918888320438569}
+  - component: {fileID: 598918888320438611}
+  - component: {fileID: 598918888320438610}
+  - component: {fileID: 598918888320438621}
+  - component: {fileID: 598918888320438609}
+  - component: {fileID: 598918888320438614}
+  - component: {fileID: 598918888320438575}
+  - component: {fileID: 598918888320438574}
+  m_Layer: 0
+  m_Name: Obi Rod
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &598918888320438568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.405, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 598918889291780988}
+  - {fileID: 598918888965696526}
+  - {fileID: 598918889302412735}
+  m_Father: {fileID: 598918889319470127}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &598918888320438571
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Mesh: {fileID: 0}
+--- !u!23 &598918888320438570
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9bc0d93bc33e445c7a765578064cdd1e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &598918888320438569
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f1d1c5155bab2402a9c25e0867b791ef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &598918888320438611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2bc32c4faf04f039a86a6e3cea12a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  solverIndices: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000790200007a0200007b0200007c0200007d0200007e0200007f020000800200008102000082020000830200008402000085020000860200008702000088020000890200008a0200008b0200008c0200008d0200008e0200008f020000900200009102000092020000930200009402000095020000960200009702000098020000990200009a0200009b0200009c0200009d0200009e0200009f020000a0020000a1020000a2020000a3020000a4020000a5020000a6020000a7020000a8020000a9020000aa020000ab020000ac020000ad020000ae020000af020000b0020000b1020000b2020000b3020000b4020000b5020000b6020000b7020000b8020000b9020000ba020000bb020000bc020000bd020000be020000bf020000c0020000c1020000c2020000c3020000c4020000c5020000c6020000c7020000c8020000c9020000ca020000cb020000cc020000cd020000ce020000cf020000d0020000d1020000d2020000d3020000d4020000d5020000d6020000d7020000d8020000d9020000da020000db020000dc020000dd020000de020000df020000e0020000e1020000e2020000e3020000e4020000e5020000e6020000e7020000e8020000e9020000ea020000eb020000ec020000ed020000ee020000ef020000f0020000f1020000f2020000f3020000f4020000f5020000f6020000f7020000f8020000f9020000fa020000fb020000fc020000fd020000fe020000ff020000000300000103000002030000030300000403000005030000060300000703000008030000090300000a0300000b0300000c0300000d0300000e0300000f030000100300001103000012030000130300001403000015030000160300001703000018030000190300001a0300001b0300001c0300001d0300001e0300001f03000020030000
+  m_CollisionMaterial: {fileID: 0}
+  m_SurfaceCollisions: 0
+  m_SelfCollisions: 0
+  restLength_: 75.32407
+  elements:
+  - particle1: 0
+    particle2: 1
+    restLength: 0.09721127
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 1
+    particle2: 2
+    restLength: 0.098334745
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 2
+    particle2: 3
+    restLength: 0.098230645
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 3
+    particle2: 4
+    restLength: 0.09841931
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 4
+    particle2: 5
+    restLength: 0.098008536
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 5
+    particle2: 6
+    restLength: 0.09817332
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 6
+    particle2: 7
+    restLength: 0.09820353
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 7
+    particle2: 8
+    restLength: 0.09813984
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 8
+    particle2: 9
+    restLength: 0.09811241
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 9
+    particle2: 10
+    restLength: 0.09803458
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 10
+    particle2: 11
+    restLength: 0.098187625
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 11
+    particle2: 12
+    restLength: 0.09777846
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 12
+    particle2: 13
+    restLength: 0.09585168
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 13
+    particle2: 14
+    restLength: 0.096075155
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 14
+    particle2: 15
+    restLength: 0.09612694
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 15
+    particle2: 16
+    restLength: 0.09617636
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 16
+    particle2: 17
+    restLength: 0.09624857
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 17
+    particle2: 18
+    restLength: 0.09627407
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 18
+    particle2: 19
+    restLength: 0.096279286
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 19
+    particle2: 20
+    restLength: 0.09627074
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 20
+    particle2: 21
+    restLength: 0.09625264
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 21
+    particle2: 22
+    restLength: 0.09623341
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 22
+    particle2: 23
+    restLength: 0.09116433
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 23
+    particle2: 24
+    restLength: 0.09184566
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 24
+    particle2: 25
+    restLength: 0.091857575
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 25
+    particle2: 26
+    restLength: 0.091920495
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 26
+    particle2: 27
+    restLength: 0.09188565
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 27
+    particle2: 28
+    restLength: 0.09183175
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 28
+    particle2: 29
+    restLength: 0.091867
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 29
+    particle2: 30
+    restLength: 0.09172246
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 30
+    particle2: 31
+    restLength: 0.09180018
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 31
+    particle2: 32
+    restLength: 0.09173237
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 32
+    particle2: 33
+    restLength: 0.09143369
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 33
+    particle2: 34
+    restLength: 0.09229332
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 34
+    particle2: 35
+    restLength: 0.09221336
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 35
+    particle2: 36
+    restLength: 0.09211119
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 36
+    particle2: 37
+    restLength: 0.09193821
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 37
+    particle2: 38
+    restLength: 0.09194634
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 38
+    particle2: 39
+    restLength: 0.09201713
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 39
+    particle2: 40
+    restLength: 0.092419855
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 40
+    particle2: 41
+    restLength: 0.09188845
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 41
+    particle2: 42
+    restLength: 0.09290978
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 42
+    particle2: 43
+    restLength: 0.09383693
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 43
+    particle2: 44
+    restLength: 0.09395241
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 44
+    particle2: 45
+    restLength: 0.093900815
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 45
+    particle2: 46
+    restLength: 0.09390664
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 46
+    particle2: 47
+    restLength: 0.09382341
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 47
+    particle2: 48
+    restLength: 0.093839064
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 48
+    particle2: 49
+    restLength: 0.09389561
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 49
+    particle2: 50
+    restLength: 0.09382031
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 50
+    particle2: 51
+    restLength: 0.09392469
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 51
+    particle2: 52
+    restLength: 0.09646117
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 52
+    particle2: 53
+    restLength: 0.09684777
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 53
+    particle2: 54
+    restLength: 0.09679426
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 54
+    particle2: 55
+    restLength: 0.09674398
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 55
+    particle2: 56
+    restLength: 0.09671799
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 56
+    particle2: 57
+    restLength: 0.09668942
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 57
+    particle2: 58
+    restLength: 0.096643
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 58
+    particle2: 59
+    restLength: 0.09659571
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 59
+    particle2: 60
+    restLength: 0.096538514
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 60
+    particle2: 61
+    restLength: 0.09657392
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 61
+    particle2: 62
+    restLength: 0.09735299
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 62
+    particle2: 63
+    restLength: 0.09810837
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 63
+    particle2: 64
+    restLength: 0.0977974
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 64
+    particle2: 65
+    restLength: 0.09785048
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 65
+    particle2: 66
+    restLength: 0.09795588
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 66
+    particle2: 67
+    restLength: 0.097915486
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 67
+    particle2: 68
+    restLength: 0.097779654
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 68
+    particle2: 69
+    restLength: 0.09779155
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 69
+    particle2: 70
+    restLength: 0.098001026
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 70
+    particle2: 71
+    restLength: 0.096847154
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 71
+    particle2: 72
+    restLength: 0.09857639
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 72
+    particle2: 73
+    restLength: 0.0986434
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 73
+    particle2: 74
+    restLength: 0.09860555
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 74
+    particle2: 75
+    restLength: 0.09859382
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 75
+    particle2: 76
+    restLength: 0.09849389
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 76
+    particle2: 77
+    restLength: 0.09830301
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 77
+    particle2: 78
+    restLength: 0.09818234
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 78
+    particle2: 79
+    restLength: 0.09322724
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 79
+    particle2: 80
+    restLength: 0.09324636
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 80
+    particle2: 81
+    restLength: 0.09326162
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 81
+    particle2: 82
+    restLength: 0.09320858
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 82
+    particle2: 83
+    restLength: 0.0932739
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 83
+    particle2: 84
+    restLength: 0.09319177
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 84
+    particle2: 85
+    restLength: 0.09314067
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 85
+    particle2: 86
+    restLength: 0.093123786
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 86
+    particle2: 87
+    restLength: 0.09665416
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 87
+    particle2: 88
+    restLength: 0.09658858
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 88
+    particle2: 89
+    restLength: 0.096915975
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 89
+    particle2: 90
+    restLength: 0.096906655
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 90
+    particle2: 91
+    restLength: 0.09687803
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 91
+    particle2: 92
+    restLength: 0.096831515
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 92
+    particle2: 93
+    restLength: 0.09672023
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 93
+    particle2: 94
+    restLength: 0.096845046
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 94
+    particle2: 95
+    restLength: 0.09621345
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 95
+    particle2: 96
+    restLength: 0.09979994
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 96
+    particle2: 97
+    restLength: 0.0996554
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 97
+    particle2: 98
+    restLength: 0.09961239
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 98
+    particle2: 99
+    restLength: 0.09959206
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 99
+    particle2: 100
+    restLength: 0.09968563
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 100
+    particle2: 101
+    restLength: 0.09962814
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 101
+    particle2: 102
+    restLength: 0.09967779
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 102
+    particle2: 103
+    restLength: 0.100046866
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 103
+    particle2: 104
+    restLength: 0.08838751
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 104
+    particle2: 105
+    restLength: 0.08838176
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 105
+    particle2: 106
+    restLength: 0.08838641
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 106
+    particle2: 107
+    restLength: 0.08832417
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 107
+    particle2: 108
+    restLength: 0.0885801
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 108
+    particle2: 109
+    restLength: 0.0883127
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 109
+    particle2: 110
+    restLength: 0.08848054
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 110
+    particle2: 111
+    restLength: 0.08872246
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 111
+    particle2: 112
+    restLength: 0.0992821
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 112
+    particle2: 113
+    restLength: 0.099295825
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 113
+    particle2: 114
+    restLength: 0.0993843
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 114
+    particle2: 115
+    restLength: 0.099269785
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 115
+    particle2: 116
+    restLength: 0.09942531
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 116
+    particle2: 117
+    restLength: 0.09933873
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 117
+    particle2: 118
+    restLength: 0.0993241
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 118
+    particle2: 119
+    restLength: 0.09939423
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 119
+    particle2: 120
+    restLength: 0.09952623
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 120
+    particle2: 121
+    restLength: 0.09352471
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 121
+    particle2: 122
+    restLength: 0.0936733
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 122
+    particle2: 123
+    restLength: 0.09367139
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 123
+    particle2: 124
+    restLength: 0.093687445
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 124
+    particle2: 125
+    restLength: 0.09360235
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 125
+    particle2: 126
+    restLength: 0.09358615
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 126
+    particle2: 127
+    restLength: 0.093568265
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 127
+    particle2: 128
+    restLength: 0.09358609
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 128
+    particle2: 129
+    restLength: 0.09359332
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 129
+    particle2: 130
+    restLength: 0.08932168
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 130
+    particle2: 131
+    restLength: 0.08915904
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 131
+    particle2: 132
+    restLength: 0.08944001
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 132
+    particle2: 133
+    restLength: 0.08939339
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 133
+    particle2: 134
+    restLength: 0.08932907
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 134
+    particle2: 135
+    restLength: 0.089340664
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 135
+    particle2: 136
+    restLength: 0.08931196
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 136
+    particle2: 137
+    restLength: 0.089235865
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 137
+    particle2: 138
+    restLength: 0.089151494
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 138
+    particle2: 139
+    restLength: 0.09985099
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 139
+    particle2: 140
+    restLength: 0.09985721
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 140
+    particle2: 141
+    restLength: 0.09986343
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 141
+    particle2: 142
+    restLength: 0.0998647
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 142
+    particle2: 143
+    restLength: 0.099868454
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 143
+    particle2: 144
+    restLength: 0.09986762
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 144
+    particle2: 145
+    restLength: 0.0998651
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 145
+    particle2: 146
+    restLength: 0.09871423
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 146
+    particle2: 147
+    restLength: 0.09927856
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 147
+    particle2: 148
+    restLength: 0.09902596
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 148
+    particle2: 149
+    restLength: 0.09915827
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 149
+    particle2: 150
+    restLength: 0.099121705
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 150
+    particle2: 151
+    restLength: 0.09905384
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 151
+    particle2: 152
+    restLength: 0.09900946
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 152
+    particle2: 153
+    restLength: 0.09899825
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 153
+    particle2: 154
+    restLength: 0.099057116
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 154
+    particle2: 155
+    restLength: 0.09773839
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 155
+    particle2: 156
+    restLength: 0.09772101
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 156
+    particle2: 157
+    restLength: 0.09795518
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 157
+    particle2: 158
+    restLength: 0.09785823
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 158
+    particle2: 159
+    restLength: 0.09784035
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 159
+    particle2: 160
+    restLength: 0.09784962
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 160
+    particle2: 161
+    restLength: 0.0978214
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 161
+    particle2: 162
+    restLength: 0.09778874
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 162
+    particle2: 163
+    restLength: 0.097778425
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 163
+    particle2: 164
+    restLength: 0.08934997
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 164
+    particle2: 165
+    restLength: 0.089461654
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 165
+    particle2: 166
+    restLength: 0.08941076
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 166
+    particle2: 167
+    restLength: 0.08946698
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 167
+    particle2: 168
+    restLength: 0.08940972
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 168
+    particle2: 169
+    restLength: 0.08935941
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 169
+    particle2: 170
+    restLength: 0.08931719
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 170
+    particle2: 171
+    restLength: 0.08929567
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 171
+    particle2: 172
+    restLength: 0.09679561
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 172
+    particle2: 173
+    restLength: 0.09715817
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 173
+    particle2: 174
+    restLength: 0.097164966
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 174
+    particle2: 175
+    restLength: 0.09705314
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 175
+    particle2: 176
+    restLength: 0.097075395
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 176
+    particle2: 177
+    restLength: 0.09702738
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 177
+    particle2: 178
+    restLength: 0.0970103
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 178
+    particle2: 179
+    restLength: 0.09687027
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 179
+    particle2: 180
+    restLength: 0.09434596
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 180
+    particle2: 181
+    restLength: 0.094499275
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 181
+    particle2: 182
+    restLength: 0.09446044
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 182
+    particle2: 183
+    restLength: 0.09442569
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 183
+    particle2: 184
+    restLength: 0.09440295
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 184
+    particle2: 185
+    restLength: 0.094395354
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 185
+    particle2: 186
+    restLength: 0.09446781
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 186
+    particle2: 187
+    restLength: 0.09891398
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 187
+    particle2: 188
+    restLength: 0.09900225
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 188
+    particle2: 189
+    restLength: 0.099120006
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 189
+    particle2: 190
+    restLength: 0.099105366
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 190
+    particle2: 191
+    restLength: 0.09906991
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 191
+    particle2: 192
+    restLength: 0.09914162
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 192
+    particle2: 193
+    restLength: 0.09894328
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 193
+    particle2: 194
+    restLength: 0.09877464
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 194
+    particle2: 195
+    restLength: 0.094785094
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 195
+    particle2: 196
+    restLength: 0.09515719
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 196
+    particle2: 197
+    restLength: 0.094970986
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 197
+    particle2: 198
+    restLength: 0.095043965
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 198
+    particle2: 199
+    restLength: 0.09505627
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 199
+    particle2: 200
+    restLength: 0.09502422
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 200
+    particle2: 201
+    restLength: 0.094947234
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 201
+    particle2: 202
+    restLength: 0.09506366
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 202
+    particle2: 203
+    restLength: 0.094722815
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 203
+    particle2: 204
+    restLength: 0.0996772
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 204
+    particle2: 205
+    restLength: 0.099883616
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 205
+    particle2: 206
+    restLength: 0.09982201
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 206
+    particle2: 207
+    restLength: 0.099792585
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 207
+    particle2: 208
+    restLength: 0.09976428
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 208
+    particle2: 209
+    restLength: 0.099723734
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 209
+    particle2: 210
+    restLength: 0.09974771
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 210
+    particle2: 211
+    restLength: 0.08910532
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 211
+    particle2: 212
+    restLength: 0.08926958
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 212
+    particle2: 213
+    restLength: 0.08937581
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 213
+    particle2: 214
+    restLength: 0.08935861
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 214
+    particle2: 215
+    restLength: 0.08947505
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 215
+    particle2: 216
+    restLength: 0.08942615
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 216
+    particle2: 217
+    restLength: 0.08896586
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 217
+    particle2: 218
+    restLength: 0.09622469
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 218
+    particle2: 219
+    restLength: 0.09605176
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 219
+    particle2: 220
+    restLength: 0.095907405
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 220
+    particle2: 221
+    restLength: 0.09591853
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 221
+    particle2: 222
+    restLength: 0.09598771
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 222
+    particle2: 223
+    restLength: 0.096309595
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 223
+    particle2: 224
+    restLength: 0.09627595
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 224
+    particle2: 225
+    restLength: 0.09157206
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 225
+    particle2: 226
+    restLength: 0.09155915
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 226
+    particle2: 227
+    restLength: 0.09155544
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 227
+    particle2: 228
+    restLength: 0.091537125
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 228
+    particle2: 229
+    restLength: 0.09152206
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 229
+    particle2: 230
+    restLength: 0.09152108
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 230
+    particle2: 231
+    restLength: 0.091534354
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 231
+    particle2: 232
+    restLength: 0.091496944
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 232
+    particle2: 233
+    restLength: 0.09147236
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 233
+    particle2: 234
+    restLength: 0.091449454
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 234
+    particle2: 235
+    restLength: 0.09144997
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 235
+    particle2: 236
+    restLength: 0.099173106
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 236
+    particle2: 237
+    restLength: 0.09919875
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 237
+    particle2: 238
+    restLength: 0.09917398
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 238
+    particle2: 239
+    restLength: 0.09914328
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 239
+    particle2: 240
+    restLength: 0.09907331
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 240
+    particle2: 241
+    restLength: 0.0990545
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 241
+    particle2: 242
+    restLength: 0.09899979
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 242
+    particle2: 243
+    restLength: 0.09923535
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 243
+    particle2: 244
+    restLength: 0.09662116
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 244
+    particle2: 245
+    restLength: 0.09668426
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 245
+    particle2: 246
+    restLength: 0.09667049
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 246
+    particle2: 247
+    restLength: 0.09663908
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 247
+    particle2: 248
+    restLength: 0.096593246
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 248
+    particle2: 249
+    restLength: 0.096577205
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 249
+    particle2: 250
+    restLength: 0.09677629
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 250
+    particle2: 251
+    restLength: 0.09774343
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 251
+    particle2: 252
+    restLength: 0.097753726
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 252
+    particle2: 253
+    restLength: 0.097840406
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 253
+    particle2: 254
+    restLength: 0.0978436
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 254
+    particle2: 255
+    restLength: 0.09782838
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 255
+    particle2: 256
+    restLength: 0.09780183
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 256
+    particle2: 257
+    restLength: 0.09779917
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 257
+    particle2: 258
+    restLength: 0.097727634
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 258
+    particle2: 259
+    restLength: 0.08892183
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 259
+    particle2: 260
+    restLength: 0.08874449
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 260
+    particle2: 261
+    restLength: 0.088399895
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 261
+    particle2: 262
+    restLength: 0.08866684
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 262
+    particle2: 263
+    restLength: 0.08884311
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 263
+    particle2: 264
+    restLength: 0.0888076
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 264
+    particle2: 265
+    restLength: 0.08963508
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 265
+    particle2: 266
+    restLength: 0.090877056
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 266
+    particle2: 267
+    restLength: 0.09099851
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 267
+    particle2: 268
+    restLength: 0.09100725
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 268
+    particle2: 269
+    restLength: 0.0909958
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 269
+    particle2: 270
+    restLength: 0.090972096
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 270
+    particle2: 271
+    restLength: 0.09095459
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 271
+    particle2: 272
+    restLength: 0.0909278
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 272
+    particle2: 273
+    restLength: 0.09090759
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 273
+    particle2: 274
+    restLength: 0.09091079
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 274
+    particle2: 275
+    restLength: 0.09097622
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 275
+    particle2: 276
+    restLength: 0.09549068
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 276
+    particle2: 277
+    restLength: 0.09570822
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 277
+    particle2: 278
+    restLength: 0.09573362
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 278
+    particle2: 279
+    restLength: 0.095706016
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 279
+    particle2: 280
+    restLength: 0.09568832
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 280
+    particle2: 281
+    restLength: 0.0956702
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 281
+    particle2: 282
+    restLength: 0.095644176
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 282
+    particle2: 283
+    restLength: 0.0956284
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 283
+    particle2: 284
+    restLength: 0.09560507
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 284
+    particle2: 285
+    restLength: 0.09559679
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 285
+    particle2: 286
+    restLength: 0.075330585
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 286
+    particle2: 287
+    restLength: 0.07535843
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 287
+    particle2: 288
+    restLength: 0.07535822
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 288
+    particle2: 289
+    restLength: 0.07535138
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 289
+    particle2: 290
+    restLength: 0.088659205
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 290
+    particle2: 291
+    restLength: 0.08866084
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 291
+    particle2: 292
+    restLength: 0.08864886
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 292
+    particle2: 293
+    restLength: 0.0886381
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 293
+    particle2: 294
+    restLength: 0.088624544
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 294
+    particle2: 295
+    restLength: 0.088619426
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 295
+    particle2: 296
+    restLength: 0.08861339
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 296
+    particle2: 297
+    restLength: 0.08847972
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 297
+    particle2: 298
+    restLength: 0.08849596
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 298
+    particle2: 299
+    restLength: 0.0884889
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 299
+    particle2: 300
+    restLength: 0.08846085
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 300
+    particle2: 301
+    restLength: 0.088357635
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 301
+    particle2: 302
+    restLength: 0.08850901
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 302
+    particle2: 303
+    restLength: 0.088567376
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 303
+    particle2: 304
+    restLength: 0.08851043
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 304
+    particle2: 305
+    restLength: 0.08867141
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 305
+    particle2: 306
+    restLength: 0.08889241
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 306
+    particle2: 307
+    restLength: 0.08883224
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 307
+    particle2: 308
+    restLength: 0.088900626
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 308
+    particle2: 309
+    restLength: 0.08870847
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 309
+    particle2: 310
+    restLength: 0.08878524
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 310
+    particle2: 311
+    restLength: 0.08883798
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 311
+    particle2: 312
+    restLength: 0.08880213
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 312
+    particle2: 313
+    restLength: 0.09958312
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 313
+    particle2: 314
+    restLength: 0.099805795
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 314
+    particle2: 315
+    restLength: 0.09973737
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 315
+    particle2: 316
+    restLength: 0.09972962
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 316
+    particle2: 317
+    restLength: 0.0997102
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 317
+    particle2: 318
+    restLength: 0.099655114
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 318
+    particle2: 319
+    restLength: 0.09960172
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 319
+    particle2: 320
+    restLength: 0.09055898
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 320
+    particle2: 321
+    restLength: 0.09098423
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 321
+    particle2: 322
+    restLength: 0.09110725
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 322
+    particle2: 323
+    restLength: 0.0909152
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 323
+    particle2: 324
+    restLength: 0.091020286
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 324
+    particle2: 325
+    restLength: 0.090990305
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 325
+    particle2: 326
+    restLength: 0.090982
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 326
+    particle2: 327
+    restLength: 0.09089421
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 327
+    particle2: 328
+    restLength: 0.09236877
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 328
+    particle2: 329
+    restLength: 0.09266474
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 329
+    particle2: 330
+    restLength: 0.09264351
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 330
+    particle2: 331
+    restLength: 0.09271213
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 331
+    particle2: 332
+    restLength: 0.09270021
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 332
+    particle2: 333
+    restLength: 0.09265768
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 333
+    particle2: 334
+    restLength: 0.09269443
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 334
+    particle2: 335
+    restLength: 0.092715934
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 335
+    particle2: 336
+    restLength: 0.092400536
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 336
+    particle2: 337
+    restLength: 0.09916342
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 337
+    particle2: 338
+    restLength: 0.099198855
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 338
+    particle2: 339
+    restLength: 0.09924225
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 339
+    particle2: 340
+    restLength: 0.09926104
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 340
+    particle2: 341
+    restLength: 0.099332
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 341
+    particle2: 342
+    restLength: 0.09926265
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 342
+    particle2: 343
+    restLength: 0.09946764
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 343
+    particle2: 344
+    restLength: 0.09182411
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 344
+    particle2: 345
+    restLength: 0.092217535
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 345
+    particle2: 346
+    restLength: 0.09218339
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 346
+    particle2: 347
+    restLength: 0.09209845
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 347
+    particle2: 348
+    restLength: 0.09211188
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 348
+    particle2: 349
+    restLength: 0.092094265
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 349
+    particle2: 350
+    restLength: 0.09208125
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 350
+    particle2: 351
+    restLength: 0.09205355
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 351
+    particle2: 352
+    restLength: 0.09202365
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 352
+    particle2: 353
+    restLength: 0.09200794
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 353
+    particle2: 354
+    restLength: 0.097104095
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 354
+    particle2: 355
+    restLength: 0.09708501
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 355
+    particle2: 356
+    restLength: 0.09706585
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 356
+    particle2: 357
+    restLength: 0.097054996
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 357
+    particle2: 358
+    restLength: 0.09679174
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 358
+    particle2: 359
+    restLength: 0.09693294
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 359
+    particle2: 360
+    restLength: 0.09691964
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 360
+    particle2: 361
+    restLength: 0.09688277
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 361
+    particle2: 362
+    restLength: 0.097660065
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 362
+    particle2: 363
+    restLength: 0.09044333
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 363
+    particle2: 364
+    restLength: 0.090576574
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 364
+    particle2: 365
+    restLength: 0.090600826
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 365
+    particle2: 366
+    restLength: 0.09060561
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 366
+    particle2: 367
+    restLength: 0.090539075
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 367
+    particle2: 368
+    restLength: 0.09051413
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 368
+    particle2: 369
+    restLength: 0.09044164
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 369
+    particle2: 370
+    restLength: 0.09041237
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 370
+    particle2: 371
+    restLength: 0.090451404
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 371
+    particle2: 372
+    restLength: 0.0967298
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 372
+    particle2: 373
+    restLength: 0.096622236
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 373
+    particle2: 374
+    restLength: 0.09656663
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 374
+    particle2: 375
+    restLength: 0.09653059
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 375
+    particle2: 376
+    restLength: 0.09661076
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 376
+    particle2: 377
+    restLength: 0.096688084
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 377
+    particle2: 378
+    restLength: 0.096872725
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 378
+    particle2: 379
+    restLength: 0.0890571
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 379
+    particle2: 380
+    restLength: 0.089107424
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 380
+    particle2: 381
+    restLength: 0.08905975
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 381
+    particle2: 382
+    restLength: 0.089017466
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 382
+    particle2: 383
+    restLength: 0.088945016
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 383
+    particle2: 384
+    restLength: 0.089036815
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 384
+    particle2: 385
+    restLength: 0.08890062
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 385
+    particle2: 386
+    restLength: 0.08897493
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 386
+    particle2: 387
+    restLength: 0.089230776
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 387
+    particle2: 388
+    restLength: 0.095005766
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 388
+    particle2: 389
+    restLength: 0.09494395
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 389
+    particle2: 390
+    restLength: 0.094892174
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 390
+    particle2: 391
+    restLength: 0.09481673
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 391
+    particle2: 392
+    restLength: 0.0950024
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 392
+    particle2: 393
+    restLength: 0.09474784
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 393
+    particle2: 394
+    restLength: 0.0949537
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 394
+    particle2: 395
+    restLength: 0.09535998
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 395
+    particle2: 396
+    restLength: 0.0991495
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 396
+    particle2: 397
+    restLength: 0.09912754
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 397
+    particle2: 398
+    restLength: 0.099422306
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 398
+    particle2: 399
+    restLength: 0.09938969
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 399
+    particle2: 400
+    restLength: 0.09931584
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 400
+    particle2: 401
+    restLength: 0.09932053
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 401
+    particle2: 402
+    restLength: 0.09923119
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 402
+    particle2: 403
+    restLength: 0.09911158
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 403
+    particle2: 404
+    restLength: 0.099105366
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 404
+    particle2: 405
+    restLength: 0.095802486
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 405
+    particle2: 406
+    restLength: 0.09586275
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 406
+    particle2: 407
+    restLength: 0.09584103
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 407
+    particle2: 408
+    restLength: 0.095811546
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 408
+    particle2: 409
+    restLength: 0.09571817
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 409
+    particle2: 410
+    restLength: 0.09553951
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 410
+    particle2: 411
+    restLength: 0.09564125
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 411
+    particle2: 412
+    restLength: 0.09582821
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 412
+    particle2: 413
+    restLength: 0.096742265
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 413
+    particle2: 414
+    restLength: 0.09696299
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 414
+    particle2: 415
+    restLength: 0.09694348
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 415
+    particle2: 416
+    restLength: 0.09684886
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 416
+    particle2: 417
+    restLength: 0.09676488
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 417
+    particle2: 418
+    restLength: 0.096752144
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 418
+    particle2: 419
+    restLength: 0.09688027
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 419
+    particle2: 420
+    restLength: 0.09684303
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 420
+    particle2: 421
+    restLength: 0.08978734
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 421
+    particle2: 422
+    restLength: 0.08990122
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 422
+    particle2: 423
+    restLength: 0.089846976
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 423
+    particle2: 424
+    restLength: 0.089879386
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 424
+    particle2: 425
+    restLength: 0.08978785
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 425
+    particle2: 426
+    restLength: 0.08979778
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 426
+    particle2: 427
+    restLength: 0.08981125
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 427
+    particle2: 428
+    restLength: 0.08984256
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 428
+    particle2: 429
+    restLength: 0.08981278
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 429
+    particle2: 430
+    restLength: 0.09577927
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 430
+    particle2: 431
+    restLength: 0.09647811
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 431
+    particle2: 432
+    restLength: 0.09616498
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 432
+    particle2: 433
+    restLength: 0.09632997
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 433
+    particle2: 434
+    restLength: 0.09631659
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 434
+    particle2: 435
+    restLength: 0.09629512
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 435
+    particle2: 436
+    restLength: 0.09626479
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 436
+    particle2: 437
+    restLength: 0.0962316
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 437
+    particle2: 438
+    restLength: 0.096189275
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 438
+    particle2: 439
+    restLength: 0.09153616
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 439
+    particle2: 440
+    restLength: 0.09150492
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 440
+    particle2: 441
+    restLength: 0.09146755
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 441
+    particle2: 442
+    restLength: 0.09153299
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 442
+    particle2: 443
+    restLength: 0.091346815
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 443
+    particle2: 444
+    restLength: 0.09143007
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 444
+    particle2: 445
+    restLength: 0.09146704
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 445
+    particle2: 446
+    restLength: 0.091513574
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 446
+    particle2: 447
+    restLength: 0.09189238
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 447
+    particle2: 448
+    restLength: 0.095982246
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 448
+    particle2: 449
+    restLength: 0.09604845
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 449
+    particle2: 450
+    restLength: 0.09621718
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 450
+    particle2: 451
+    restLength: 0.09617177
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 451
+    particle2: 452
+    restLength: 0.096176304
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 452
+    particle2: 453
+    restLength: 0.09623525
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 453
+    particle2: 454
+    restLength: 0.096100286
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 454
+    particle2: 455
+    restLength: 0.09596859
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 455
+    particle2: 456
+    restLength: 0.093398094
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 456
+    particle2: 457
+    restLength: 0.093331866
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 457
+    particle2: 458
+    restLength: 0.09331672
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 458
+    particle2: 459
+    restLength: 0.09322851
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 459
+    particle2: 460
+    restLength: 0.09334267
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 460
+    particle2: 461
+    restLength: 0.09333436
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 461
+    particle2: 462
+    restLength: 0.08745152
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 462
+    particle2: 463
+    restLength: 0.087568425
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 463
+    particle2: 464
+    restLength: 0.08751587
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 464
+    particle2: 465
+    restLength: 0.08759931
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 465
+    particle2: 466
+    restLength: 0.08753911
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 466
+    particle2: 467
+    restLength: 0.08754687
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 467
+    particle2: 468
+    restLength: 0.087521866
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 468
+    particle2: 469
+    restLength: 0.08748376
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 469
+    particle2: 470
+    restLength: 0.094912805
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 470
+    particle2: 471
+    restLength: 0.094992265
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 471
+    particle2: 472
+    restLength: 0.09507081
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 472
+    particle2: 473
+    restLength: 0.09501972
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 473
+    particle2: 474
+    restLength: 0.09497174
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 474
+    particle2: 475
+    restLength: 0.09496547
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 475
+    particle2: 476
+    restLength: 0.09495144
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 476
+    particle2: 477
+    restLength: 0.09497201
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 477
+    particle2: 478
+    restLength: 0.094948724
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 478
+    particle2: 479
+    restLength: 0.09890211
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 479
+    particle2: 480
+    restLength: 0.09868541
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 480
+    particle2: 481
+    restLength: 0.09887166
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 481
+    particle2: 482
+    restLength: 0.0986731
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 482
+    particle2: 483
+    restLength: 0.09862314
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 483
+    particle2: 484
+    restLength: 0.09868231
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 484
+    particle2: 485
+    restLength: 0.098640144
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 485
+    particle2: 486
+    restLength: 0.09877985
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 486
+    particle2: 487
+    restLength: 0.09890146
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 487
+    particle2: 488
+    restLength: 0.09066771
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 488
+    particle2: 489
+    restLength: 0.090741836
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 489
+    particle2: 490
+    restLength: 0.090952165
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 490
+    particle2: 491
+    restLength: 0.09087656
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 491
+    particle2: 492
+    restLength: 0.09089833
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 492
+    particle2: 493
+    restLength: 0.09093738
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 493
+    particle2: 494
+    restLength: 0.09074418
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 494
+    particle2: 495
+    restLength: 0.09071817
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 495
+    particle2: 496
+    restLength: 0.09650648
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 496
+    particle2: 497
+    restLength: 0.09658616
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 497
+    particle2: 498
+    restLength: 0.09656949
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 498
+    particle2: 499
+    restLength: 0.09658364
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 499
+    particle2: 500
+    restLength: 0.096588716
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 500
+    particle2: 501
+    restLength: 0.0036335536
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 501
+    particle2: 502
+    restLength: 0.0018484818
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 502
+    particle2: 503
+    restLength: 0.08556896
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 503
+    particle2: 504
+    restLength: 0.08556966
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 504
+    particle2: 505
+    restLength: 0.08557989
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 505
+    particle2: 506
+    restLength: 0.08557412
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 506
+    particle2: 507
+    restLength: 0.08646537
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 507
+    particle2: 508
+    restLength: 0.08653662
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 508
+    particle2: 509
+    restLength: 0.08653342
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 509
+    particle2: 510
+    restLength: 0.08651916
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 510
+    particle2: 511
+    restLength: 0.086498365
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 511
+    particle2: 512
+    restLength: 0.0865085
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 512
+    particle2: 513
+    restLength: 0.08655986
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 513
+    particle2: 514
+    restLength: 0.08852633
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 514
+    particle2: 515
+    restLength: 0.0886886
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 515
+    particle2: 516
+    restLength: 0.08860261
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 516
+    particle2: 517
+    restLength: 0.08863545
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 517
+    particle2: 518
+    restLength: 0.08857402
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 518
+    particle2: 519
+    restLength: 0.08857223
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 519
+    particle2: 520
+    restLength: 0.08867902
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 520
+    particle2: 521
+    restLength: 0.094215915
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 521
+    particle2: 522
+    restLength: 0.094325535
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 522
+    particle2: 523
+    restLength: 0.094397634
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 523
+    particle2: 524
+    restLength: 0.09440067
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 524
+    particle2: 525
+    restLength: 0.09432222
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 525
+    particle2: 526
+    restLength: 0.09432805
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 526
+    particle2: 527
+    restLength: 0.09431009
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 527
+    particle2: 528
+    restLength: 0.09428847
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 528
+    particle2: 529
+    restLength: 0.09429989
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 529
+    particle2: 530
+    restLength: 0.09422859
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 530
+    particle2: 531
+    restLength: 0.09450453
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 531
+    particle2: 532
+    restLength: 0.09439466
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 532
+    particle2: 533
+    restLength: 0.09436581
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 533
+    particle2: 534
+    restLength: 0.09437804
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 534
+    particle2: 535
+    restLength: 0.09437712
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 535
+    particle2: 536
+    restLength: 0.094355166
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 536
+    particle2: 537
+    restLength: 0.09434769
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 537
+    particle2: 538
+    restLength: 0.09437037
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 538
+    particle2: 539
+    restLength: 0.09448325
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 539
+    particle2: 540
+    restLength: 0.09875737
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 540
+    particle2: 541
+    restLength: 0.09885555
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 541
+    particle2: 542
+    restLength: 0.09884939
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 542
+    particle2: 543
+    restLength: 0.09883229
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 543
+    particle2: 544
+    restLength: 0.09881374
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 544
+    particle2: 545
+    restLength: 0.09881794
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 545
+    particle2: 546
+    restLength: 0.09889979
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 546
+    particle2: 547
+    restLength: 0.095233075
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 547
+    particle2: 548
+    restLength: 0.09528713
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 548
+    particle2: 549
+    restLength: 0.09542258
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 549
+    particle2: 550
+    restLength: 0.09543664
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 550
+    particle2: 551
+    restLength: 0.09543224
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 551
+    particle2: 552
+    restLength: 0.09542789
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 552
+    particle2: 553
+    restLength: 0.0953768
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 553
+    particle2: 554
+    restLength: 0.09521067
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 554
+    particle2: 555
+    restLength: 0.09874764
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 555
+    particle2: 556
+    restLength: 0.09876716
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 556
+    particle2: 557
+    restLength: 0.09874769
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 557
+    particle2: 558
+    restLength: 0.09873596
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 558
+    particle2: 559
+    restLength: 0.09871509
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 559
+    particle2: 560
+    restLength: 0.09868994
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 560
+    particle2: 561
+    restLength: 0.09872612
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 561
+    particle2: 562
+    restLength: 0.088239186
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 562
+    particle2: 563
+    restLength: 0.088168226
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 563
+    particle2: 564
+    restLength: 0.08819852
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 564
+    particle2: 565
+    restLength: 0.088164926
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 565
+    particle2: 566
+    restLength: 0.08826846
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 566
+    particle2: 567
+    restLength: 0.08809345
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 567
+    particle2: 568
+    restLength: 0.08840666
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 568
+    particle2: 569
+    restLength: 0.0963141
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 569
+    particle2: 570
+    restLength: 0.09641668
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 570
+    particle2: 571
+    restLength: 0.0965662
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 571
+    particle2: 572
+    restLength: 0.09647496
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 572
+    particle2: 573
+    restLength: 0.09651306
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 573
+    particle2: 574
+    restLength: 0.09648682
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 574
+    particle2: 575
+    restLength: 0.09646253
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 575
+    particle2: 576
+    restLength: 0.09645125
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 576
+    particle2: 577
+    restLength: 0.09642374
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 577
+    particle2: 578
+    restLength: 0.09171465
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 578
+    particle2: 579
+    restLength: 0.09155236
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 579
+    particle2: 580
+    restLength: 0.091485985
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 580
+    particle2: 581
+    restLength: 0.09146487
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 581
+    particle2: 582
+    restLength: 0.091449365
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 582
+    particle2: 583
+    restLength: 0.09147771
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 583
+    particle2: 584
+    restLength: 0.09149061
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 584
+    particle2: 585
+    restLength: 0.091489434
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 585
+    particle2: 586
+    restLength: 0.091517314
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 586
+    particle2: 587
+    restLength: 0.09157255
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 587
+    particle2: 588
+    restLength: 0.08970231
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 588
+    particle2: 589
+    restLength: 0.08964423
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 589
+    particle2: 590
+    restLength: 0.08960593
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 590
+    particle2: 591
+    restLength: 0.08959912
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 591
+    particle2: 592
+    restLength: 0.089742094
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 592
+    particle2: 593
+    restLength: 0.089611806
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 593
+    particle2: 594
+    restLength: 0.08965755
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 594
+    particle2: 595
+    restLength: 0.08992802
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 595
+    particle2: 596
+    restLength: 0.09718142
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 596
+    particle2: 597
+    restLength: 0.097439274
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 597
+    particle2: 598
+    restLength: 0.09744808
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 598
+    particle2: 599
+    restLength: 0.097475685
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 599
+    particle2: 600
+    restLength: 0.09751784
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 600
+    particle2: 601
+    restLength: 0.09735364
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 601
+    particle2: 602
+    restLength: 0.09750754
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 602
+    particle2: 603
+    restLength: 0.09696454
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 603
+    particle2: 604
+    restLength: 0.096463196
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 604
+    particle2: 605
+    restLength: 0.09653205
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 605
+    particle2: 606
+    restLength: 0.096547894
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 606
+    particle2: 607
+    restLength: 0.09650297
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 607
+    particle2: 608
+    restLength: 0.09647885
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 608
+    particle2: 609
+    restLength: 0.09644661
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 609
+    particle2: 610
+    restLength: 0.09638163
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 610
+    particle2: 611
+    restLength: 0.09640809
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 611
+    particle2: 612
+    restLength: 0.087870404
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 612
+    particle2: 613
+    restLength: 0.087748304
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 613
+    particle2: 614
+    restLength: 0.08768951
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 614
+    particle2: 615
+    restLength: 0.08776439
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 615
+    particle2: 616
+    restLength: 0.087708905
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 616
+    particle2: 617
+    restLength: 0.08811238
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 617
+    particle2: 618
+    restLength: 0.09533961
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 618
+    particle2: 619
+    restLength: 0.095410526
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 619
+    particle2: 620
+    restLength: 0.09545116
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 620
+    particle2: 621
+    restLength: 0.095443614
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 621
+    particle2: 622
+    restLength: 0.09542456
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 622
+    particle2: 623
+    restLength: 0.09547057
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 623
+    particle2: 624
+    restLength: 0.09549209
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 624
+    particle2: 625
+    restLength: 0.09548632
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 625
+    particle2: 626
+    restLength: 0.09546931
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 626
+    particle2: 627
+    restLength: 0.09753843
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 627
+    particle2: 628
+    restLength: 0.09785598
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 628
+    particle2: 629
+    restLength: 0.09809774
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 629
+    particle2: 630
+    restLength: 0.09814994
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 630
+    particle2: 631
+    restLength: 0.098114766
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 631
+    particle2: 632
+    restLength: 0.09806567
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 632
+    particle2: 633
+    restLength: 0.09814147
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 633
+    particle2: 634
+    restLength: 0.09814879
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 634
+    particle2: 635
+    restLength: 0.09770638
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 635
+    particle2: 636
+    restLength: 0.09702193
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 636
+    particle2: 637
+    restLength: 0.097106345
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 637
+    particle2: 638
+    restLength: 0.09721491
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 638
+    particle2: 639
+    restLength: 0.09715227
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 639
+    particle2: 640
+    restLength: 0.097142786
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 640
+    particle2: 641
+    restLength: 0.09717246
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 641
+    particle2: 642
+    restLength: 0.09706373
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 642
+    particle2: 643
+    restLength: 0.09693725
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 643
+    particle2: 644
+    restLength: 0.09885941
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 644
+    particle2: 645
+    restLength: 0.099046804
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 645
+    particle2: 646
+    restLength: 0.0989061
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 646
+    particle2: 647
+    restLength: 0.09900253
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 647
+    particle2: 648
+    restLength: 0.098964065
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 648
+    particle2: 649
+    restLength: 0.098935366
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 649
+    particle2: 650
+    restLength: 0.09887255
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 650
+    particle2: 651
+    restLength: 0.09892835
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 651
+    particle2: 652
+    restLength: 0.09460608
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 652
+    particle2: 653
+    restLength: 0.094731815
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 653
+    particle2: 654
+    restLength: 0.09472536
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 654
+    particle2: 655
+    restLength: 0.09470731
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 655
+    particle2: 656
+    restLength: 0.09469496
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 656
+    particle2: 657
+    restLength: 0.09469344
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 657
+    particle2: 658
+    restLength: 0.09469526
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 658
+    particle2: 659
+    restLength: 0.08759284
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 659
+    particle2: 660
+    restLength: 0.08800659
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 660
+    particle2: 661
+    restLength: 0.088031076
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 661
+    particle2: 662
+    restLength: 0.08797848
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 662
+    particle2: 663
+    restLength: 0.08802895
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 663
+    particle2: 664
+    restLength: 0.08798054
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 664
+    particle2: 665
+    restLength: 0.08753078
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 665
+    particle2: 666
+    restLength: 0.09068059
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 666
+    particle2: 667
+    restLength: 0.09062189
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 667
+    particle2: 668
+    restLength: 0.090586714
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 668
+    particle2: 669
+    restLength: 0.09062755
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 669
+    particle2: 670
+    restLength: 0.09059656
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 670
+    particle2: 671
+    restLength: 0.09050219
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 671
+    particle2: 672
+    restLength: 0.09083078
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 672
+    particle2: 673
+    restLength: 0.098324314
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 673
+    particle2: 674
+    restLength: 0.098466925
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 674
+    particle2: 675
+    restLength: 0.09841263
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 675
+    particle2: 676
+    restLength: 0.098425776
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 676
+    particle2: 677
+    restLength: 0.09829518
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 677
+    particle2: 678
+    restLength: 0.098004565
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 678
+    particle2: 679
+    restLength: 0.097741865
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 679
+    particle2: 680
+    restLength: 0.09106112
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 680
+    particle2: 681
+    restLength: 0.091443524
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 681
+    particle2: 682
+    restLength: 0.091329105
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 682
+    particle2: 683
+    restLength: 0.09132946
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 683
+    particle2: 684
+    restLength: 0.091233075
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 684
+    particle2: 685
+    restLength: 0.09115842
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 685
+    particle2: 686
+    restLength: 0.09854989
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 686
+    particle2: 687
+    restLength: 0.09859375
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 687
+    particle2: 688
+    restLength: 0.09862332
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 688
+    particle2: 689
+    restLength: 0.09859827
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 689
+    particle2: 690
+    restLength: 0.09852295
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 690
+    particle2: 691
+    restLength: 0.090291396
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 691
+    particle2: 692
+    restLength: 0.090282135
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 692
+    particle2: 693
+    restLength: 0.09031513
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 693
+    particle2: 694
+    restLength: 0.090266526
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 694
+    particle2: 695
+    restLength: 0.09027095
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 695
+    particle2: 696
+    restLength: 0.09028726
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 696
+    particle2: 697
+    restLength: 0.09816626
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 697
+    particle2: 698
+    restLength: 0.09786479
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 698
+    particle2: 699
+    restLength: 0.097947866
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 699
+    particle2: 700
+    restLength: 0.09777463
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 700
+    particle2: 701
+    restLength: 0.09797111
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 701
+    particle2: 702
+    restLength: 0.09769049
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 702
+    particle2: 703
+    restLength: 0.09790262
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 703
+    particle2: 704
+    restLength: 0.09799542
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 704
+    particle2: 705
+    restLength: 0.09841526
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 705
+    particle2: 706
+    restLength: 0.097360775
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 706
+    particle2: 707
+    restLength: 0.0970782
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 707
+    particle2: 708
+    restLength: 0.097063206
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 708
+    particle2: 709
+    restLength: 0.09717281
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 709
+    particle2: 710
+    restLength: 0.097307585
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 710
+    particle2: 711
+    restLength: 0.09289099
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 711
+    particle2: 712
+    restLength: 0.092848994
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 712
+    particle2: 713
+    restLength: 0.09290827
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 713
+    particle2: 714
+    restLength: 0.09299651
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 714
+    particle2: 715
+    restLength: 0.09292681
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 715
+    particle2: 716
+    restLength: 0.09298655
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 716
+    particle2: 717
+    restLength: 0.09298705
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 717
+    particle2: 718
+    restLength: 0.092977434
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 718
+    particle2: 719
+    restLength: 0.09300981
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 719
+    particle2: 720
+    restLength: 0.09294013
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 720
+    particle2: 721
+    restLength: 0.092878595
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 721
+    particle2: 722
+    restLength: 0.09285753
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 722
+    particle2: 723
+    restLength: 0.09707939
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 723
+    particle2: 724
+    restLength: 0.09719787
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 724
+    particle2: 725
+    restLength: 0.0973244
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 725
+    particle2: 726
+    restLength: 0.097291164
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 726
+    particle2: 727
+    restLength: 0.09722735
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 727
+    particle2: 728
+    restLength: 0.09680136
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 728
+    particle2: 729
+    restLength: 0.09842573
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 729
+    particle2: 730
+    restLength: 0.09832453
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 730
+    particle2: 731
+    restLength: 0.098327965
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 731
+    particle2: 732
+    restLength: 0.09823438
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 732
+    particle2: 733
+    restLength: 0.088203825
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 733
+    particle2: 734
+    restLength: 0.08835868
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 734
+    particle2: 735
+    restLength: 0.096863635
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 735
+    particle2: 736
+    restLength: 0.09706764
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 736
+    particle2: 737
+    restLength: 0.09712781
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 737
+    particle2: 738
+    restLength: 0.09717158
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 738
+    particle2: 739
+    restLength: 0.097183794
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 739
+    particle2: 740
+    restLength: 0.097154394
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 740
+    particle2: 741
+    restLength: 0.09648342
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 741
+    particle2: 742
+    restLength: 0.096717976
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 742
+    particle2: 743
+    restLength: 0.09681883
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 743
+    particle2: 744
+    restLength: 0.09685904
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 744
+    particle2: 745
+    restLength: 0.096799634
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 745
+    particle2: 746
+    restLength: 0.09667667
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 746
+    particle2: 747
+    restLength: 0.0995701
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 747
+    particle2: 748
+    restLength: 0.09957149
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 748
+    particle2: 749
+    restLength: 0.099573664
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 749
+    particle2: 750
+    restLength: 0.09952898
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 750
+    particle2: 751
+    restLength: 0.099539414
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 751
+    particle2: 752
+    restLength: 0.09959472
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 752
+    particle2: 753
+    restLength: 0.097446196
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 753
+    particle2: 754
+    restLength: 0.09738163
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 754
+    particle2: 755
+    restLength: 0.09728677
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 755
+    particle2: 756
+    restLength: 0.09722581
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 756
+    particle2: 757
+    restLength: 0.09741405
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 757
+    particle2: 758
+    restLength: 0.09304684
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 758
+    particle2: 759
+    restLength: 0.09322913
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 759
+    particle2: 760
+    restLength: 0.093381815
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 760
+    particle2: 761
+    restLength: 0.093450464
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 761
+    particle2: 762
+    restLength: 0.093455486
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 762
+    particle2: 763
+    restLength: 0.09320699
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 763
+    particle2: 764
+    restLength: 0.09336191
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 764
+    particle2: 765
+    restLength: 0.09331485
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 765
+    particle2: 766
+    restLength: 0.093348265
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 766
+    particle2: 767
+    restLength: 0.093153186
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 767
+    particle2: 768
+    restLength: 0.093495056
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 768
+    particle2: 769
+    restLength: 0.093702115
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 769
+    particle2: 770
+    restLength: 0.0992184
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 770
+    particle2: 771
+    restLength: 0.099283814
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 771
+    particle2: 772
+    restLength: 0.09932719
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 772
+    particle2: 773
+    restLength: 0.09936107
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 773
+    particle2: 774
+    restLength: 0.09936179
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 774
+    particle2: 775
+    restLength: 0.0993525
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 775
+    particle2: 776
+    restLength: 0.09587151
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 776
+    particle2: 777
+    restLength: 0.09589961
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 777
+    particle2: 778
+    restLength: 0.09591424
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 778
+    particle2: 779
+    restLength: 0.09592749
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 779
+    particle2: 780
+    restLength: 0.095910266
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 780
+    particle2: 781
+    restLength: 0.09589153
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 781
+    particle2: 782
+    restLength: 0.09883155
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 782
+    particle2: 783
+    restLength: 0.09885928
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 783
+    particle2: 784
+    restLength: 0.098868035
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 784
+    particle2: 785
+    restLength: 0.09887634
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 785
+    particle2: 786
+    restLength: 0.09886051
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 786
+    particle2: 787
+    restLength: 0.098868884
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 787
+    particle2: 788
+    restLength: 0.08623396
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 788
+    particle2: 789
+    restLength: 0.08624849
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 789
+    particle2: 790
+    restLength: 0.08626329
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 790
+    particle2: 791
+    restLength: 0.08626366
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 791
+    particle2: 792
+    restLength: 0.08625186
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 792
+    particle2: 793
+    restLength: 0.086248234
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 793
+    particle2: 794
+    restLength: 0.0862378
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 794
+    particle2: 795
+    restLength: 0.09476321
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 795
+    particle2: 796
+    restLength: 0.09477946
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 796
+    particle2: 797
+    restLength: 0.094794266
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 797
+    particle2: 798
+    restLength: 0.09480644
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 798
+    particle2: 799
+    restLength: 0.09479523
+    constraintForce: 0
+    tearResistance: 0
+  - particle1: 799
+    particle2: 800
+    restLength: 0.094778456
+    constraintForce: 0
+    tearResistance: 0
+  m_RodBlueprint: {fileID: 11400000, guid: b74d67cfe23804ec1b4f215ac5e3d500, type: 2}
+  _stretchShearConstraintsEnabled: 1
+  _stretchCompliance: 5
+  _shear1Compliance: 0
+  _shear2Compliance: 0
+  _bendTwistConstraintsEnabled: 1
+  _torsionCompliance: 0
+  _bend1Compliance: 0
+  _bend2Compliance: 0
+  _plasticYield: 0.1
+  _plasticCreep: 0
+  _chainConstraintsEnabled: 1
+  _tightness: 1
+--- !u!114 &598918888320438610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 958c969cfb16745f192d4d7bd28b7178, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decimation: 0.409
+  smoothing: 1
+  twist: 1
+--- !u!114 &598918888320438621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4747da60837c44f9ba4b4a86879bcc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uvAnchor: 0
+  uvScale: {x: 1, y: 121.3}
+  normalizeV: 1
+  section: {fileID: 11400000, guid: a0bc36a59515f413e90e10895929c938, type: 2}
+  thicknessScale: 0.65
+--- !u!114 &598918888320438609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d03c9194b7ab4aaba4dfa5afec22c69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actor: {fileID: 598918888320438611}
+  m_Target: {fileID: 598918889291780988}
+  m_ParticleGroup: {fileID: 9190015862606898100, guid: b74d67cfe23804ec1b4f215ac5e3d500, type: 2}
+  m_AttachmentType: 0
+  m_ConstrainOrientation: 1
+  m_Compliance: 0
+  m_BreakThreshold: Infinity
+--- !u!114 &598918888320438614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d03c9194b7ab4aaba4dfa5afec22c69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actor: {fileID: 598918888320438611}
+  m_Target: {fileID: 598918889302412735}
+  m_ParticleGroup: {fileID: -6026587834117108368, guid: b74d67cfe23804ec1b4f215ac5e3d500, type: 2}
+  m_AttachmentType: 0
+  m_ConstrainOrientation: 1
+  m_Compliance: 5
+  m_BreakThreshold: Infinity
+--- !u!64 &598918888320438575
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &598918888320438574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888320438623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6757b231cedd544c583ef8aeaf773b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thickness: 1
+  material: {fileID: 11400000, guid: 56297c6e785b44eb28e469b62cedc016, type: 2}
+  filter: -65535
+  m_SourceCollider: {fileID: 598918888320438575}
+  m_DistanceField: {fileID: 11400000, guid: 5eb5ff1af3a3f4a14977448198c232ae, type: 2}
+--- !u!1 &598918888965696522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598918888965696526}
+  - component: {fileID: 598918888965696521}
+  - component: {fileID: 598918888965696520}
+  - component: {fileID: 598918888965696523}
+  - component: {fileID: 598918888965696525}
+  - component: {fileID: 598918888965696527}
+  - component: {fileID: 598918888965696524}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &598918888965696526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888965696522}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.06, y: -8.699826, z: -0.02}
+  m_LocalScale: {x: 0.5127846, y: 13.172017, z: 0.5127846}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 598918888320438568}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &598918888965696521
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888965696522}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &598918888965696520
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888965696522}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &598918888965696523
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888965696522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!54 &598918888965696525
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888965696522}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &598918888965696527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888965696522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6757b231cedd544c583ef8aeaf773b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thickness: 0.05
+  material: {fileID: 0}
+  filter: -65535
+  m_SourceCollider: {fileID: 598918888965696523}
+  m_DistanceField: {fileID: 0}
+--- !u!114 &598918888965696524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918888965696522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62359d80fdc0e4315ab6331b78ec5b90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kinematicForParticles: 0
+--- !u!1 &598918889291780991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598918889291780988}
+  - component: {fileID: 598918889291780979}
+  - component: {fileID: 598918889291780978}
+  - component: {fileID: 598918889291780989}
+  - component: {fileID: 598918889291780976}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &598918889291780988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889291780991}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.166, y: 2.879, z: -0.691}
+  m_LocalScale: {x: 0.43696082, y: 0.4369608, z: 0.4369608}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 598918888320438568}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &598918889291780979
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889291780991}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &598918889291780978
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889291780991}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &598918889291780989
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889291780991}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!95 &598918889291780976
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889291780991}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f1d1c5155bab2402a9c25e0867b791ef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &598918889302412708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598918889302412735}
+  - component: {fileID: 598918889302412734}
+  - component: {fileID: 598918889302412729}
+  - component: {fileID: 598918889302412728}
+  - component: {fileID: 598918889302412731}
+  - component: {fileID: 598918889302412730}
+  - component: {fileID: 598918889302412709}
+  m_Layer: 0
+  m_Name: Load
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &598918889302412735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889302412708}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.87, y: -17.375, z: 0.18}
+  m_LocalScale: {x: 0.79513997, y: 0.6594322, z: 0.7}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 598918888320438568}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &598918889302412734
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889302412708}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &598918889302412729
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889302412708}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &598918889302412728
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889302412708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &598918889302412731
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889302412708}
+  serializedVersion: 2
+  m_Mass: 0.25
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &598918889302412730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889302412708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6757b231cedd544c583ef8aeaf773b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thickness: 0
+  material: {fileID: 0}
+  filter: -65535
+  m_SourceCollider: {fileID: 598918889302412728}
+  m_DistanceField: {fileID: 0}
+--- !u!114 &598918889302412709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889302412708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62359d80fdc0e4315ab6331b78ec5b90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kinematicForParticles: 1
+--- !u!1 &598918889319470120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598918889319470127}
+  - component: {fileID: 598918889319470126}
+  - component: {fileID: 598918889319470121}
+  m_Layer: 0
+  m_Name: Obi Solver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &598918889319470127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889319470120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 10.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 598918888320438568}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &598918889319470126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889319470120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d174fab52f0c4b8399f25d5c3ea524c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simulateWhenInvisible: 1
+  m_Backend: 1
+  parameters:
+    mode: 0
+    interpolation: 0
+    gravity: {x: 0, y: -9.81, z: 0}
+    damping: 0
+    maxAnisotropy: 3
+    sleepThreshold: 5
+    collisionMargin: 0.02
+    maxDepenetration: 5
+    continuousCollisionDetection: 1
+    shockPropagation: 0
+    surfaceCollisionIterations: 8
+    surfaceCollisionTolerance: 1
+  gravity: {x: 0, y: 0, z: 0}
+  gravitySpace: 0
+  worldLinearInertiaScale: 0
+  worldAngularInertiaScale: 0
+  distanceConstraintParameters:
+    evaluationOrder: 0
+    iterations: 8
+    SORFactor: 1
+    enabled: 0
+  bendingConstraintParameters:
+    evaluationOrder: 0
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  particleCollisionConstraintParameters:
+    evaluationOrder: 0
+    iterations: 5
+    SORFactor: 1
+    enabled: 1
+  particleFrictionConstraintParameters:
+    evaluationOrder: 1
+    iterations: 3
+    SORFactor: 1
+    enabled: 1
+  collisionConstraintParameters:
+    evaluationOrder: 1
+    iterations: 3
+    SORFactor: 1
+    enabled: 1
+  frictionConstraintParameters:
+    evaluationOrder: 1
+    iterations: 3
+    SORFactor: 1
+    enabled: 1
+  skinConstraintParameters:
+    evaluationOrder: 0
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  volumeConstraintParameters:
+    evaluationOrder: 1
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  shapeMatchingConstraintParameters:
+    evaluationOrder: 1
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  tetherConstraintParameters:
+    evaluationOrder: 1
+    iterations: 2
+    SORFactor: 1
+    enabled: 0
+  pinConstraintParameters:
+    evaluationOrder: 0
+    iterations: 2
+    SORFactor: 1
+    enabled: 0
+  stitchConstraintParameters:
+    evaluationOrder: 1
+    iterations: 5
+    SORFactor: 1
+    enabled: 0
+  densityConstraintParameters:
+    evaluationOrder: 1
+    iterations: 2
+    SORFactor: 1
+    enabled: 0
+  stretchShearConstraintParameters:
+    evaluationOrder: 0
+    iterations: 45
+    SORFactor: 1
+    enabled: 1
+  bendTwistConstraintParameters:
+    evaluationOrder: 0
+    iterations: 30
+    SORFactor: 1.5
+    enabled: 1
+  chainConstraintParameters:
+    evaluationOrder: 0
+    iterations: 15
+    SORFactor: 0.25
+    enabled: 1
+--- !u!114 &598918889319470121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598918889319470120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9704d540ac448439a425526f6b2986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  solvers:
+  - {fileID: 598918889319470126}
+  - {fileID: 0}
+  substeps: 3
