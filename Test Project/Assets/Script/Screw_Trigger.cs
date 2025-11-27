@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using Oculus.Interaction.HandGrab;
+using Oculus.Interaction.HandGrab;
 
 public class Screw_Trigger : MonoBehaviour
 {
@@ -26,7 +26,7 @@ public class Screw_Trigger : MonoBehaviour
             this.GetComponent<MeshRenderer>().enabled = false;
             other.gameObject.transform.position = this.gameObject.transform.position;
             other.gameObject.transform.rotation = this.gameObject.transform.rotation;
-            //other.gameObject.GetComponentInChildren<HandGrabInteractable>().enabled = false;
+            other.gameObject.GetComponentInChildren<HandGrabInteractable>().enabled = false;
         }
         if (other.gameObject.tag == "Driller")
         {

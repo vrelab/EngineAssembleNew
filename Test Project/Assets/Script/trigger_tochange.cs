@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*using OVR;
+using OVR;
 using OVRTouchSample;
 using Oculus;
 using OculusSampleFramework;
-using Oculus.Interaction;*/
+using Oculus.Interaction;
 
 public class trigger_tochange : MonoBehaviour
 {
