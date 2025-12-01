@@ -17,6 +17,7 @@ public class Chas_Trigger : MonoBehaviour
         if (other.gameObject.tag == "Pich_Chas")
         {
             other.GetComponent<MeshRenderer>().enabled = true;
+            this.GetComponent<Chas_Trigger>().enabled = true;
             this.gameObject.SetActive(false);
         }
     }

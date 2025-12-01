@@ -8,6 +8,7 @@ public class Vasar_Trigger : MonoBehaviour
     int va ;
     private void Awake()
     {
+        this.gameObject.SetActive(true);
     }
     private void Update()
     {
@@ -23,11 +24,13 @@ public class Vasar_Trigger : MonoBehaviour
         if (other.gameObject.tag == "Vasar")
         {
             va++;
-            this.GetComponent<MeshRenderer>().enabled = false;
-            this.GetComponent<Vasar_Trigger>().enabled = false; 
+            //this.GetComponent<MeshRenderer>().enabled = false;
             other.gameObject.transform.position = this.gameObject.transform.position;
             other.gameObject.transform.rotation = this.gameObject.transform.rotation;
-            other.gameObject.GetComponentInChildren<HandGrabInteractable>().enabled = false;
+            other.gameObject.GetComponentInChildren<HandGrabInteractable>().enabled = false;          
+            this.GetComponent<MeshRenderer>().enabled = false;
+            this.GetComponent<Vasar_Trigger>().enabled = false;
+            //this.gameObject.SetActive(false);            
             Debug.Log(va);
         }
     }
