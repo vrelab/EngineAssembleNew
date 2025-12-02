@@ -9,16 +9,23 @@ public class Chas_Trigger : MonoBehaviour
     {
         if (other.gameObject.tag == "Chas")
         {
-            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+
             mainchas.SetActive(true);
             other.gameObject.SetActive(false);
-            this.gameObject.SetActive(false);                      
+            //this.gameObject.SetActive(false);  
+            this.gameObject.GetComponent<BoxCollider>().enabled = false;
+            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            this.gameObject.GetComponent<Chas_Trigger>().enabled = false;                   
         }
         if (other.gameObject.tag == "Pich_Chas")
         {
-            other.GetComponent<MeshRenderer>().enabled = true;
-            this.GetComponent<Chas_Trigger>().enabled = true;
-            this.gameObject.SetActive(false);
+            other.gameObject.GetComponentInChildren<MeshRenderer>().enabled = true;
+            other.gameObject.GetComponentInChildren<BoxCollider>().enabled = true;
+            this.gameObject.GetComponent<BoxCollider>().enabled = false;
+            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            this.gameObject.GetComponent<Chas_Trigger>().enabled = false;
+
+            //this.gameObject.SetActive(false);
         }
     }
 }

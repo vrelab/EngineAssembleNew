@@ -17,27 +17,31 @@ public class UI_Manager : MonoBehaviour
     public GameObject[] VasarUp;
     public GameObject[] bar_Coll;
     public GameObject[] Screw_Coll;
+    public GameObject[] Screw_Body;
     public GameObject[] PistonTop;
     public GameObject[] PistonBottom;
 
     [Header("Other Objects")]
     public GameObject crank_coll_Move;
     public GameObject crankarrow;
+    public GameObject Screw_Driver;
 
     [Header("UI Elements")]
     public Button StartButton;
     public GameObject WarningUI;
 
-    private int num = 0; // Current step
+    private int num = 6; // Current step
 
-/*    private void Start()
+    private void Start()
     {
         // Assign single listener
-        StartButton.onClick.AddListener(OnStartButtonPressed);
+        //StartButton.onClick.AddListener(OnStartButtonPressed);
 
         // Initialize first step
         //SetStep(1);
-    }*/
+
+        //SetAllDeactive(Chas_Coll);
+    }
 
     public void OnStartButtonPressed()
     {
@@ -55,6 +59,9 @@ public class UI_Manager : MonoBehaviour
                 break;
             case 7:
                 CheckStepObjectsAndProceed(Screw_Coll);
+                break;
+            case 8:
+                CheckStepObjectsAndProceed(Screw_Body);
                 break;
             case 10:
                 CheckStepObjectsAndProceed(PistonTop);
@@ -124,39 +131,47 @@ public class UI_Manager : MonoBehaviour
                 StartButton.GetComponentInChildren<TextMeshProUGUI>().text = "Next";
                 SetAllActive(VasarDown);
                 //StartButton.interactable = false;
-                WarningUI.SetActive(false);
+                WarningUI.SetActive(false);                
                 break;
 
             case 2:
-                //SetAllDeactive(Chas_Coll);
+                SetAllActive(ChasLift);
+                //SetAllDeactive(ChasLift);
                 break;
 
             case 3:
                 SetAllActive(Chas_Coll);
-                SetAllDeactive(Chas_Coll);
+                //SetAllDeactive(Chas_Coll);
                 break;
 
             case 4:
                 SetAllActive(crank_coll);
-                SetAllActive(crank_coll);
+                //SetAllActive(crank_coll);
                 //crank_coll.SetActive(true);
                 break;
 
             case 5:
                 SetAllActive(VasarUp);
-                SetAllActive(VasarUp);
+                //SetAllActive(VasarUp);
                 crankarrow.SetActive(false);
                 break;
 
             case 6:
                 SetAllActive(bar_Coll);
-                SetAllDeactive(bar_Coll);
+                //SetAllDeactive(bar_Coll);
                 //SetAllDeactive(VasarUp);
                 break;
 
             case 7:
                 SetAllActive(Screw_Coll);
-                SetAllDeactive(Screw_Coll);
+                //SetAllDeactive(Screw_Coll);
+                break;
+
+            case 8:
+                Screw_Driver.SetActive(true);
+                //SetAllDeactive(Screw_Coll);
+                SetAllActive(Screw_Body);
+                //SetAllDeactive(Screw_Coll);
                 break;
 
             case 10:

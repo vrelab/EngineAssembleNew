@@ -24,20 +24,22 @@ public class Screw_Trigger : MonoBehaviour
             //other.gameObject.SetActive(false);
             //this.gameObject.SetActive(false);
             this.GetComponent<MeshRenderer>().enabled = false;
+            this.GetComponent<BoxCollider>().enabled = false;
+            this.GetComponent<Screw_Trigger>().enabled = false;
             other.gameObject.transform.position = this.gameObject.transform.position;
             other.gameObject.transform.rotation = this.gameObject.transform.rotation;
             other.gameObject.GetComponentInChildren<HandGrabInteractable>().enabled = false;
         }
         if (other.gameObject.tag == "Driller")
         {
-            this.gameObject.GetComponent<Animator>().enabled = true;
+            this.gameObject.GetComponentInChildren<Animator>().enabled = true;
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Driller")
         {
-            this.gameObject.GetComponent<Animator>().enabled = false;
+            this.gameObject.GetComponentInChildren<Animator>().enabled = false;
         }
     }
     public void rr()

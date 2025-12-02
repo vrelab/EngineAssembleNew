@@ -29,6 +29,7 @@ public class Vasar_Trigger : MonoBehaviour
             other.gameObject.transform.rotation = this.gameObject.transform.rotation;
             other.gameObject.GetComponentInChildren<HandGrabInteractable>().enabled = false;          
             this.GetComponent<MeshRenderer>().enabled = false;
+            this.GetComponent<MeshCollider>().enabled = false;
             this.GetComponent<Vasar_Trigger>().enabled = false;
             //this.gameObject.SetActive(false);            
             Debug.Log(va);
