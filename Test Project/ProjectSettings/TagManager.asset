@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Crank
+  - screw
+  - Vasar
+  - Piston
+  - R_Off
+  - Chas
+  - Ts_Off
+  - Piston_Top
+  - Bar
+  - Pich_Chas
+  - Driller
+  - Anchor
   layers:
   - Default
   - TransparentFX

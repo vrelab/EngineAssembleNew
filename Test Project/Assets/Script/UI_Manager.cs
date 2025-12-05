@@ -170,7 +170,7 @@ public class UI_Manager : MonoBehaviour
             case 8:
                 Screw_Driver.SetActive(true);
                 //SetAllDeactive(Screw_Coll);
-                SetAllActive(Screw_Body);
+                //SetAllActive(Screw_Body);
                 //SetAllDeactive(Screw_Coll);
                 break;
 

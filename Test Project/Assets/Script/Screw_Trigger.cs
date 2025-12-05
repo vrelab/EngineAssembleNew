@@ -30,18 +30,18 @@ public class Screw_Trigger : MonoBehaviour
             other.gameObject.transform.rotation = this.gameObject.transform.rotation;
             other.gameObject.GetComponentInChildren<HandGrabInteractable>().enabled = false;
         }
-        if (other.gameObject.tag == "Driller")
+/*        if (other.gameObject.tag == "Driller")
         {
-            this.gameObject.GetComponentInChildren<Animator>().enabled = true;
-        }
+            this.gameObject.GetComponent<Animator>().enabled = true;
+        }*/
     }
-    private void OnTriggerExit(Collider other)
+/*    private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Driller")
         {
-            this.gameObject.GetComponentInChildren<Animator>().enabled = false;
+            this.gameObject.GetComponent<Animator>().enabled = false;
         }
-    }
+    }*/
     public void rr()
     {
         df = GameObject.FindWithTag("Tag");
