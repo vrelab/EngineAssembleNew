@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using TMPro;
 
@@ -30,7 +31,9 @@ public class UI_Manager : MonoBehaviour
     public Button StartButton;
     public GameObject WarningUI;
 
-    private int num = 6; // Current step
+    public UnityEvent EngineBody;
+
+    private int num = 0; // Current step
 
     private void Start()
     {
@@ -57,11 +60,17 @@ public class UI_Manager : MonoBehaviour
             case 3:
                 CheckStepObjectsAndProceed(Chas_Coll);
                 break;
+            case 5:
+                CheckStepObjectsAndProceed(VasarUp);
+                break;
             case 7:
                 CheckStepObjectsAndProceed(Screw_Coll);
                 break;
             case 8:
                 CheckStepObjectsAndProceed(Screw_Body);
+                break;
+            case 9:
+                EngineBody.Invoke();
                 break;
             case 10:
                 CheckStepObjectsAndProceed(PistonTop);
@@ -113,12 +122,11 @@ public class UI_Manager : MonoBehaviour
     {
         UI_Text[num].SetActive(false);
         num++;
+        if (num >= 1)
+        {
+            StartButton.GetComponentInChildren<TextMeshProUGUI>().text = "Next";
+        }
         UI_Text[num].SetActive(true);
-/*        if (num < UI_Text.Length && UI_Text[num] != null)
- *        
-        if (num >= UI_Text.Length) num = 1;
-
-        if (num < UI_Text.Length && UI_Text[num] != null)*/
         SetStep(num);
     }
 
@@ -128,7 +136,7 @@ public class UI_Manager : MonoBehaviour
         switch (step)
         {
             case 1:
-                StartButton.GetComponentInChildren<TextMeshProUGUI>().text = "Next";
+                
                 SetAllActive(VasarDown);
                 //StartButton.interactable = false;
                 WarningUI.SetActive(false);                
@@ -173,7 +181,6 @@ public class UI_Manager : MonoBehaviour
                 //SetAllActive(Screw_Body);
                 //SetAllDeactive(Screw_Coll);
                 break;
-
             case 10:
                 SetAllActive(PistonTop);
                 break;
